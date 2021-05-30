@@ -9,16 +9,16 @@ description: 'hakatashiが個人的に書き留めている単語帳から一日
 keywords:
 author: '@hakatashi (Koki Takahashi)'
 language: ja
-timezone: 'UTC+9'
+timezone: 'Asia/Tokyo'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://word.hakatashi.com
-permalink: :year:month:day
+permalink: :year:month:day/
 permalink_defaults:
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source
