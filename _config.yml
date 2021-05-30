@@ -103,3 +103,17 @@ theme: autumn
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# feed
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss.xml
+  limit: 100
+  content: true
+  icon: https://cdn.jsdelivr.net/gh/hakatashi/icon@master/images/icon_big_300px.png
+  autodiscovery: true
