@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hakatashiの一日一語</title>
+  <icon>https://cdn.jsdelivr.net/gh/hakatashi/icon@master/images/icon_big_300px.png</icon>
+  <subtitle>hakatashiが個人的に書き留めている単語帳から一日一語ずつ紹介します</subtitle>
+  <link href="https://word.hakatashi.com/atom.xml" rel="self"/>
+  
+  <link href="https://word.hakatashi.com/"/>
+  <updated>2021-05-30T21:57:22.575Z</updated>
+  <id>https://word.hakatashi.com/</id>
+  
+  <author>
+    <name>hakatashi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第四の壁</title>
+    <link href="https://word.hakatashi.com/20210531/"/>
+    <id>https://word.hakatashi.com/20210531/</id>
+    <published>2021-05-31T01:00:00.000Z</published>
+    <updated>2021-05-30T21:57:22.575Z</updated>
+    
+    <content type="html"><![CDATA[<p>演劇などの作品において、舞台と観客を分け隔てると考えられている仮想の壁のこと。転じてフィクションなどにおいて作品世界と現実世界を分け隔てる隔絶のことを指す。<br>主に「第四の壁を壊す」などの形で用いられる。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;演劇などの作品において、舞台と観客を分け隔てると考えられている仮想の壁のこと。転じてフィクションなどにおいて作品世界と現実世界を分け隔てる隔絶のことを指す。&lt;br&gt;主に「第四の壁を壊す」などの形で用いられる。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>徒花</title>
+    <link href="https://word.hakatashi.com/20210530/"/>
+    <id>https://word.hakatashi.com/20210530/</id>
+    <published>2021-05-30T01:00:00.000Z</published>
+    <updated>2021-05-30T21:57:22.575Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>咲いても実を結ばずに散る花。転じて、実  (じつ)  を伴わない物事。むだ花。「徒花を咲かす」「徒花に終わる」</li><li>季節はずれに咲く花。</li><li>はかなく散る桜花。あだざくら。<br> 「風をだに待つ程もなき―は枝にかかれる春の淡雪」〈夫木・四〉</li></ol><p><cite><a href="https://dictionary.goo.ne.jp/word/%E5%BE%92%E8%8A%B1/">デジタル大辞泉「徒花」</a></cite>より引用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;咲いても実を結ばずに散る花。転じて、実  (じつ)  を伴わない物事。むだ花。「徒花を咲かす」「徒花に終わる」&lt;/li&gt;
+&lt;li&gt;季節はずれに咲く花。&lt;/li&gt;
+&lt;li&gt;はかなく散る桜花。あだざくら。&lt;br&gt; 「風をだに待つ程もなき―は枝にかかれる春の淡雪」〈夫</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
