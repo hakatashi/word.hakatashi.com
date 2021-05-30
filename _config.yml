@@ -7,7 +7,7 @@ title: hakatashiの一日一語
 subtitle: ''
 description: 'hakatashiが個人的に書き留めている単語帳から一日一語ずつ紹介します'
 keywords:
-author: '@hakatashi (Koki Takahashi)'
+author: hakatashi
 language: ja
 timezone: 'Asia/Tokyo'
 
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: autumn
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
