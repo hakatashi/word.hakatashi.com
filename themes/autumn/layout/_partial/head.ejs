@@ -3,7 +3,7 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta name="keywords" content="<%- theme.keywords %>" />
     <title>
-        <%= config.title %>
+        <%= page.layout === 'post' ? `${config.title}: ${page.title}` : config.title %>
     </title>
     <!-- favicon -->
     <% if (theme.favicon){ %>

@@ -15,7 +15,7 @@
     left: 50%
     top: 100%
     transform: translate(-50%, -18px)
-  
+
   .post-cat
     display: inline-block
     margin: 0 0 5px
@@ -23,7 +23,7 @@
       content: "\00B7"
       margin: 0 .75em
       color: #f78769
-    &:last-of-type::after 
+    &:last-of-type::after
       content: ''
     a
       font: 700 13px Lato-Bold
@@ -36,26 +36,33 @@
         color: #777
 
   .post-title
-    margin: 0 0 .5em
-    font: 1.953em Lora 
+    margin: 0
+    font-size: 2.5rem
+    font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif
     color: #777
+    a
+      color: #777
+      text-decoration: none
+
+  .post-subtitle
+    margin: 0
+    font-size: 1rem
+    font-weight: normal
+    font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif
     &::after
       content: ""
       display: block
       margin: .5em auto
       width: 20%
       height: 2px
-      background-color: #f3f3f3  
-    a
-      color: #777
-      text-decoration: none    
+      background-color: #f3f3f3
 
   .post-date
     padding: 0
     list-style: none
     color: #bbb
     font: 14px/1.6 Lato
-    li 
+    li
       display: inline-block
       &:first-child::after
         content: "\00B7"
@@ -98,6 +105,10 @@
       transition: .5s
       &:hover
         box-shadow: none
+    cite
+      font-style: normal
+      text-decoration: none
+      color: cornflowerblue
     img
       max-width: 100%
       border-radius: 4px

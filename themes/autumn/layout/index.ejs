@@ -24,6 +24,9 @@
                             <%= post.title %>
                         </a>
                     </h1>
+                    <h2 class="post-subtitle">
+                        <%- post.subtitle %>
+                    </h2>
 
                     <ul class="post-date">
                         <li>
@@ -39,8 +42,7 @@
                         </div>
                     <%}%>
                     <div class="post-content ">
-                        <%- post.excerpt %>
-                            <a href="<%- url_for(post.path) %>" class="more-link">Continue reading</a>
+                        <%- post.content %>
                     </div>
         </article>
         <% }) %>

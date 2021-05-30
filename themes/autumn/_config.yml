@@ -1,16 +1,16 @@
 # Nav
 social:
-  Github: https://github.com/FrontendSophie
-  LinkedIn: https://www.linkedin.com/in/frontendsophie/
+  GitHub: https://github.com/hakatashi
+  Twitter: https://twitter.com/hakatashi
 
 # Background image, color
 background: 'url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3'
 
 # Favicon
-favicon: https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/hakatashi/icon@master/images/icon_big_300px.png
 
 # SEO
-keywords: 'hexo, autumn'
+keywords: 'hakatashi, 日本語'
 
 # Widgets, enable at least one
 widgets:

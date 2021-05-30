@@ -1,23 +1,24 @@
-.header 
+.header
   text-align: center
-  h1, h2 
+  h1, h2
     margin: 0
     line-height: 1.2
-  .title 
+  .title
     a
+      font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif
       color:#f78769
       text-decoration: none
       font: 700 3rem Lora-Bold
       transition: .3s
       &:hover
         color: #bbb
-    
+
   .desc
       margin:.5em 0 .25em
       font: 18px Lora
       color: #bbb
 
-  .links 
+  .links
     height: 40px
     margin: 2.25em auto 4.5em
     border-top: 1px dashed #ddd
@@ -25,7 +26,7 @@
     font: 700 13px Lato-Bold
     text-transform: uppercase
     letter-spacing: 1px
-    ul 
+    ul
       text-decoration: none
       padding: 0
       li
@@ -33,7 +34,7 @@
         &:first-child::after
           content: "\00B7"
           margin: 0 .75em
-        &:last-child::after 
+        &:last-child::after
           content: ''
         a
           color: #777
@@ -41,7 +42,7 @@
           transition: .3s
           &:hover
             color: #f78769
-  
+
   .ipad-menu
     display: none
     position: fixed
@@ -75,8 +76,8 @@
     font: 700 14px Lato-Bold
     color: #fff
     text-transform: upperCase
-          
-    &::before 
+
+    &::before
       content: ''
       background: url('https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/menu.svg')
       display: inline-block
@@ -94,16 +95,16 @@
     .ipad-menu
       display: block
 
-@media screen and (max-width: 640px) 
-  .header 
-    .title 
+@media screen and (max-width: 640px)
+  .header
+    .title
       a
         font-size: 2.5rem
 
     .ipad-menu
       display: none
 
-    .mobile-menu 
+    .mobile-menu
       display: flex
       justify-content: space-between
       align-items: center
@@ -112,5 +113,5 @@
         font: 700 12px Lato-Bold
         outline: 3px solid #bbb
 
-      
-      
+
+
