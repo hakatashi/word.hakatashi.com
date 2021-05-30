@@ -33,6 +33,7 @@ code {
   line-height: 1.2;
 }
 .header .title a {
+  font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif;
   color: #f78769;
   text-decoration: none;
   font: 700 3rem Lora-Bold;
@@ -191,21 +192,28 @@ code {
   color: #777;
 }
 .post .post-title {
-  margin: 0 0 0.5em;
-  font: 1.953em Lora;
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif;
   color: #777;
 }
-.post .post-title::after {
+.post .post-title a {
+  color: #777;
+  text-decoration: none;
+}
+.post .post-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Source Han Serif", "Source Han Serif JP", "BIZ UDMincho Medium", "Noto Serif JP", "Source Serif Pro", "Source Serif", "Noto Serif", "Times New Roman", "Georgia Pro", Georgia, "Songti SC", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC", Simsun, "Songti TC", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif HK", "Noto Serif TC", PMingLiu, AppleMyungjo, "Source Han Serif K", "Source Han Serif KR", "Noto Serif KR", Batang, serif;
+}
+.post .post-subtitle::after {
   content: "";
   display: block;
   margin: 0.5em auto;
   width: 20%;
   height: 2px;
   background-color: #f3f3f3;
-}
-.post .post-title a {
-  color: #777;
-  text-decoration: none;
 }
 .post .post-date {
   padding: 0;
@@ -262,6 +270,11 @@ code {
 }
 .post .post-content a.more-link:hover {
   box-shadow: none;
+}
+.post .post-content cite {
+  font-style: normal;
+  text-decoration: none;
+  color: #6495ed;
 }
 .post .post-content img {
   max-width: 100%;
