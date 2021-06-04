@@ -18,32 +18,32 @@
                         <%= cat.name %>
                     </a>
                 </h4>
-                <%  }) %>
-                    <h1 class="post-title">
-                        <a href="<%- url_for(post.path) %>">
-                            <%= post.title %>
-                        </a>
-                    </h1>
-                    <h2 class="post-subtitle">
-                        <%- post.subtitle %>
-                    </h2>
+            <%  }) %>
+            <h1 class="post-title">
+                <a href="<%- url_for(post.path) %>">
+                    <%= post.title %>
+                </a>
+            </h1>
+            <h2 class="post-subtitle">
+                <%- post.subtitle %>
+            </h2>
 
-                    <ul class="post-date">
-                        <li>
-                            <%- date(post.date, 'LL') %>
-                        </li>
-                        <li>
-                            <%= config.author %>
-                        </li>
-                    </ul>
-                    <% if (theme.auto_cover && getPostCover(post)){%>
-                        <div class="post-cover">
-                            <img src="<%- getPostCover(post) %>">
-                        </div>
-                    <%}%>
-                    <div class="post-content ">
-                        <%- post.content %>
-                    </div>
+            <ul class="post-date">
+                <li>
+                    <%- date(post.date, 'LL') %>
+                </li>
+                <li>
+                    <%= config.author %>
+                </li>
+            </ul>
+            <% if (theme.auto_cover && getPostCover(post)){%>
+                <div class="post-cover">
+                    <img src="<%- getPostCover(post) %>">
+                </div>
+            <%}%>
+            <div class="post-content">
+                <%- post.content %>
+            </div>
         </article>
-        <% }) %>
+    <% }) %>
 </section>
