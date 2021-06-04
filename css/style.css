@@ -350,6 +350,17 @@ code {
 .aside-section ul li a:hover {
   color: #ddd;
 }
+.aside-section ul li .archive-list-count {
+  font: 14px Lato;
+  margin-inline-start: 0.2em;
+  color: #808080;
+}
+.aside-section ul li .archive-list-count::before {
+  content: '(';
+}
+.aside-section ul li .archive-list-count::after {
+  content: ')';
+}
 .aside-section.tag li {
   display: inline-block;
   border: none;
