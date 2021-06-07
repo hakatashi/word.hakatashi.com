@@ -273,6 +273,8 @@ code {
 }
 .post .post-content cite {
   font-style: normal;
+}
+.post .post-content cite a {
   text-decoration: none;
   color: #6495ed;
 }
