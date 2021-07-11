@@ -15,8 +15,31 @@
     <atom:link href="https://word.hakatashi.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 10 Jul 2021 01:00:29 GMT</pubDate>
+    <pubDate>Sun, 11 Jul 2021 01:00:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>烈しい</title>
+      <link>https://word.hakatashi.com/20210711/</link>
+      <guid>https://word.hakatashi.com/20210711/</guid>
+      <pubDate>Sun, 11 Jul 2021 01:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;激しい。&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>激しい。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://word.hakatashi.com/20210711/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>一驚を喫する</title>
