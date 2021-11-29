@@ -15,8 +15,32 @@
     <atom:link href="https://word.hakatashi.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 28 Nov 2021 01:00:19 GMT</pubDate>
+    <pubDate>Mon, 29 Nov 2021 01:00:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>吼く</title>
+      <link>https://word.hakatashi.com/20211129/</link>
+      <guid>https://word.hakatashi.com/20211129/</guid>
+      <pubDate>Mon, 29 Nov 2021 01:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;怒り叫ぶ。吼える。古事記下「その猪怒りて―・き依り来つ」&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;広辞苑「吼く」&lt;/cite&gt;より引用&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>怒り叫ぶ。吼える。古事記下「その猪怒りて―・き依り来つ」</p><p><cite>広辞苑「吼く」</cite>より引用</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://word.hakatashi.com/20211129/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>奠都</title>
@@ -2338,29 +2362,6 @@
       
       
       <comments>https://word.hakatashi.com/20210822/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>地球流体力学</title>
-      <link>https://word.hakatashi.com/20210821/</link>
-      <guid>https://word.hakatashi.com/20210821/</guid>
-      <pubDate>Sat, 21 Aug 2021 01:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;地球などの惑星上における気体・液体などの流体の運動を流体力学、熱力学などの基礎に基づいて論じる理論物理学および地球物理学の一分野。&lt;/p&gt;
-&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%83%</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>地球などの惑星上における気体・液体などの流体の運動を流体力学、熱力学などの基礎に基づいて論じる理論物理学および地球物理学の一分野。</p><p><cite><a href="https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%83%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6">地球流体力学 - Wikipedia</a></cite>より引用</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://word.hakatashi.com/20210821/#disqus_thread</comments>
       
     </item>
     
